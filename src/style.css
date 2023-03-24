@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: #1b1b21;
+}
+
+header {
+  display: flex;
+  padding: 1em 3em;
+  align-items: center;
+}
+
+header > .restaurant-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+#pages {
+  margin-left: auto;
+  display: flex;
+  gap: 2em;
+}
+
+#pages > a {
+  cursor: pointer;
+}
+
+main {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home-page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+#home-page-content h1 {
+  text-transform:uppercase;
+  font-size: 4em;
+}
+
+#home-page-content h2 {
+  font-weight: normal;
+}
+
+#btn-home-menu {
+  margin-top: 3em;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 4px solid #facc15;
+  font-weight: bold;
+  color: #facc15;
+  padding: 1em;
+  font-size: .6em;
+
+  cursor: pointer;
+}
