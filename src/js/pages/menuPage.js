@@ -6,7 +6,8 @@ const catCafeMenu = {
       name: "Tuna Sandwich",
       description: "Tuna, mayo, and lettuce on whole wheat bread",
       price: 7.99,
-      icon: "🥪"
+      icon: "🥪",
+      image: "/img/food/tuna-sandwich.png"
     },
     {
       name: "Grilled Cheese",

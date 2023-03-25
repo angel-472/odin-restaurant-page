@@ -1,5 +1,6 @@
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'production',
@@ -13,12 +14,16 @@ module.exports = {
         { from: './src/img', to: 'img'},
       ],
     }),
+    new HtmlWebpackPlugin({
+      template: './src/index.html',
+      filename: 'index.html'
+    }),
   ],
   devtool: 'inline-source-map',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: false,
+    clean: true,
   },
   module: {
   rules: [
