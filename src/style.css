@@ -131,22 +131,20 @@ main {
 
 .food-cards-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: .5em;
 }
 
 .food-card {
   background-color: #1B1B24;
   display: flex;
+  flex-direction: column;
+  width: 300px;
 }
 
-.food-icon {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
+.food-image {
+  height: 250px;
+  object-fit: cover;
 }
 
 .food-card-info {
