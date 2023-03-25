@@ -1,10 +1,19 @@
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'production',
   entry: {
     index: './src/js/index.js',
   },
+  plugins: [
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: './src/favicon.ico', to: 'favicon.ico' },
+        { from: './src/img', to: 'img'},
+      ],
+    }),
+  ],
   devtool: 'inline-source-map',
   output: {
     filename: 'main.js',

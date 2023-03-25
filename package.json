@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/angel-472/odin-restaurant-page#readme",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.3",
     "style-loader": "^3.3.2",
     "webpack": "^5.76.3",
