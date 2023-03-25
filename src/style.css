@@ -32,6 +32,14 @@ header > .restaurant-name {
 
 #pages > a {
   cursor: pointer;
+  user-select: none;
+  transition: color 200ms;
+}
+
+#pages > a:hover {
+  cursor: pointer;
+  user-select: none;
+  color: #d4d4d8;
 }
 
 main {
@@ -71,4 +79,28 @@ main {
   font-size: .6em;
 
   cursor: pointer;
+}
+
+/* contact page */
+#contact-page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+#contact-page-content h1 {
+  text-transform:uppercase;
+  font-size: 4em;
+}
+
+#contact-page-info {
+  margin-top: .5em;
+  color: #d4d4d8;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
 }
