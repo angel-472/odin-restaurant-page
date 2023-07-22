@@ -104,9 +104,6 @@ export class MenuPage extends Page {
     </div>`;
     return div;
   }
-  init(){
-
-  }
   getHtml(){
     let container = document.createElement('div');
     container.id = "menu-page";
