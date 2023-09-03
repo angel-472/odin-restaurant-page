@@ -6,31 +6,31 @@ const catCafeMenu = {
       name: "Tuna Sandwich",
       description: "Tuna, mayo, and lettuce on whole wheat bread",
       price: 7.99,
-      image: "/img/food/tuna-sandwich.png"
+      image: "./img/food/tuna-sandwich.png"
     },
     {
       name: "Grilled Cheese",
       description: "Melted cheddar cheese on sourdough bread",
       price: 6.99,
-      image: "/img/food/grilled-cheese.jpg"
+      image: "./img/food/grilled-cheese.jpg"
     },
     {
       name: "Fish Plate",
       description: "Grilled salmon served with steamed veggies and a side of rice",
       price: 12.99,
-      image: "/img/food/fish-plate.jpg"
+      image: "./img/food/fish-plate.jpg"
     },
     {
       name: "Croissant",
       description: "Freshly baked buttery croissant",
       price: 3.99,
-      image: "/img/food/croissant.jpg"
+      image: "./img/food/croissant.jpg"
     },
     {
       name: "Bagel with Cream Cheese",
       description: "Toasted bagel with cream cheese",
       price: 5.99,
-      image: "/img/food/bagel.jpg"
+      image: "./img/food/bagel.jpg"
     }
   ],
   drinks: [
@@ -38,25 +38,25 @@ const catCafeMenu = {
       name: "Catpuccino",
       description: "Espresso with steamed milk, topped with foam art of a cat",
       price: 5.99,
-      image: "/img/food/catpuccino.jpg"
+      image: "./img/food/catpuccino.jpg"
     },
     {
       name: "Catnip Tea",
       description: "Herbal tea made with organic catnip",
       price: 3.99,
-      image: "/img/food/catnip-tea.jpg"
+      image: "./img/food/catnip-tea.jpg"
     },
     {
       name: "Iced Mocha",
       description: "Iced coffee with chocolate syrup and whipped cream",
       price: 4.99,
-      image: "/img/food/iced-mocha.jpg"
+      image: "./img/food/iced-mocha.jpg"
     },
     {
       name: "Matcha Latte",
       description: "Green tea latte made with organic matcha",
       price: 6.99,
-      image: "/img/food/matcha-latte.jpg"
+      image: "./img/food/matcha-latte.jpg"
     }
   ],
   treats: [
@@ -64,25 +64,25 @@ const catCafeMenu = {
       name: "Cat Cookies",
       description: "Freshly baked cookies in the shape of cats",
       price: 2.99,
-      image: "/img/food/cat-cookies.jpg"
+      image: "./img/food/cat-cookies.jpg"
     },
     {
       name: "Cat Treats",
       description: "Organic cat treats made with all-natural ingredients",
       price: 3.99,
-      image: "/img/food/cat-treats.jpg"
+      image: "./img/food/cat-treats.jpg"
     },
     {
       name: "Cat Cake",
       description: "Vanilla cake with cream cheese frosting and decorated with cat faces",
       price: 6.99,
-      image: "/img/food/cat-cake.jpg"
+      image: "./img/food/cat-cake.jpg"
     },
     {
       name: "Fruit Salad",
       description: "Fresh fruit salad with honey dressing",
       price: 5.99,
-      image: "/img/food/fruit-salad.jpg"
+      image: "./img/food/fruit-salad.jpg"
     }
   ]
 };
